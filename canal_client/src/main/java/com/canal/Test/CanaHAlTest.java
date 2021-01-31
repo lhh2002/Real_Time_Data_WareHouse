@@ -19,12 +19,12 @@ import java.util.List;
 /**
  * 测试canal配置是否成功
  */
-public class CanalTest {
+public class CanaHAlTest {
 
     public static void main(String[] args) {
         //1.创建连接
-        CanalConnector connect = CanalConnectors.newSingleConnector(new InetSocketAddress("192.168.100.201", 11111),
-                "example", "", "");
+
+        CanalConnector connect = CanalConnectors.newClusterConnector("node01:2181,node02:2181,node03:2181", "example", "", "");
         //指定一次性读取的条数
         int bachChSize = 1000;
         // 设置转态

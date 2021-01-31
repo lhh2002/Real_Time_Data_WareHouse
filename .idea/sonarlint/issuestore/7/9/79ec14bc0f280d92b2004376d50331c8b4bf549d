@@ -1,0 +1,26 @@
+
+M
+java:S2589'"7Remove this expression which always evaluates to "true"(›ûÅò
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(—Ó«å
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(˜ÑÃË
+M	java:S106Q"9Replace this use of System.out or System.err by a logger.(İï‡u
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(òÙÎ¨øÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(ËÉËúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âğÄÇ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(³™¡
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(Ú³Õ¸
+]
+java:S2259^"GA "NullPointerException" could be thrown; "rowChange" is nullable here.(ƒ–ƒí
+M
+java:S2589 "7Remove this expression which always evaluates to "true"(›ûÅò
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(•µŸ´
+8
+java:S2189'""Add an end condition to this loop.(›ûÅò
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+C	java:S108-")Either remove or fill this block of code.(Ü‡ïîÿÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(ş¾¹ô
+8
+java:S2189 ""Add an end condition to this loop.(›ûÅò
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ñŸ„§ûÿÿÿÿ
