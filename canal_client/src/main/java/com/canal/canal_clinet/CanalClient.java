@@ -4,6 +4,8 @@ import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.client.CanalConnectors;
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import com.alibaba.otter.canal.protocol.Message;
+import com.canal.bean.CanalRowData;
+import com.canal.canal_clinet.kafka.KafkaSender;
 import com.canal.canal_clinet.util.ConfigUtil;
 import com.google.protobuf.InvalidProtocolBufferException;
 
@@ -28,13 +30,14 @@ public class CanalClient {
     //canal 配置项
     private Properties properties;
 //    private KafkaSender kafkaSender;
-
+    private KafkaSender kafkaSender;
     // 初始化连接
     public CanalClient() {
         canalConnector = CanalConnectors.newClusterConnector(ConfigUtil.zookeeperServerIp(),
                 ConfigUtil.canalServerDestination(),
                 ConfigUtil.canalServerIp(),
-                ConfigUtil.canalServerUsername());
+                   ConfigUtil.canalServerUsername());
+        kafkaSender=new KafkaSender();
     }
 
     //启动方法
@@ -57,6 +60,11 @@ public class CanalClient {
                 } else {
                     Map binlogMessageToMap = binlogMessageToMap(message);
                     // 将map 对象进行序列化对
+                    CanalRowData rowData = new CanalRowData(binlogMessageToMap);
+                  if (binlogMessageToMap.size()>0){
+                      kafkaSender.send(rowData);
+                      System.out.println(rowData.toString());
+                  }
                 }
 
             }
@@ -122,7 +130,7 @@ public class CanalClient {
 
             rowDataMap.put("columns", columnDataMap);
         }
-
+        System.out.println(rowDataMap);
         return rowDataMap;
     }
 }

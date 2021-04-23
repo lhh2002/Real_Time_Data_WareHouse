@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "cn.canal.protobuf";
+option java_outer_classname = "CanalModel";
+
+/* 行数据 */
+message RowData {
+    string logfileName = 15;
+    uint64 logfileOffset = 14;
+    uint64 executeTime = 1;
+    string schemaName = 2;
+    string tableName = 3;
+    string eventType = 4;
+
+    /* 列数据 */
+    map<string, string> columns = 5;
+}

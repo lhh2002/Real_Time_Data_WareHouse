@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shop_data_simulator" />
+        <module name="data_simulator" />
         <module name="shop_common" />
         <module name="shop_realtime_etl" />
         <module name="canal_client" />
+        <module name="itcast_shop_data_simulator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop_data_simulator" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast_shop_data_simulator" options="-parameters" />
+    </option>
   </component>
 </project>

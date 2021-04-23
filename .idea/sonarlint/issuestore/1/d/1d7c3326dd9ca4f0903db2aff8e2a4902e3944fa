@@ -1,0 +1,13 @@
+
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(ùëÖãùÿÿÿÿ8ÌŒ‘¹õ.
+o	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õúŸÒüÿÿÿÿ8ÌŒ‘¹õ.
+o	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ééÒøÿÿÿÿ8ÌŒ‘¹õ.
+P
+java:S1128"4Remove this unused import 'javafx.stage.StageStyle'.(¶©28¨½ˆ¹õ.
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(–åË8ÌŒ‘¹õ.
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(Äö®ı8ÌŒ‘¹õ.
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(€õ¥İøÿÿÿÿ8ÌŒ‘¹õ.
+o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¸è•ûÿÿÿÿ8ÌŒ‘¹õ.
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(¶ˆéªşÿÿÿÿ8ÌŒ‘¹õ.
+j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å™Ş°8ÌŒ‘¹õ.
+i	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¯¸?8ÌŒ‘¹õ.

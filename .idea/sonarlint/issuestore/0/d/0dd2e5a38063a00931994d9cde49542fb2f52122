@@ -1,28 +1,28 @@
 
-8
-java:S2189 ""Add an end condition to this loop.(›ûÅò
-8
-java:S2189'""Add an end condition to this loop.(›ûÅò
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âğÄÇ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(˜ÑÃË
+C	java:S108-")Either remove or fill this block of code.(Ü‡ïîÿÿÿÿÿ
+M
+java:S2589'"7Remove this expression which always evaluates to "true"(›ûÅò
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(—Ó«å
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(ş¾¹ô
+R
+java:S1128"7Remove this unused import 'java.net.InetSocketAddress'.(·¬ğ¶ıÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(òÙÎ¨øÿÿÿÿ
 ]
 java:S2259^"GA "NullPointerException" could be thrown; "rowChange" is nullable here.(ƒ–ƒí
 M
 java:S2589 "7Remove this expression which always evaluates to "true"(›ûÅò
-M
-java:S2589'"7Remove this expression which always evaluates to "true"(›ûÅò
-R
-java:S1128"7Remove this unused import 'java.net.InetSocketAddress'.(·¬ğ¶ıÿÿÿÿ
-C	java:S108-")Either remove or fill this block of code.(Ü‡ïîÿÿÿÿÿ
-S	java:S106M"9Replace this use of System.out or System.err by a logger.(ñŸ„§ûÿÿÿÿ
-N	java:S106N"9Replace this use of System.out or System.err by a logger.(˜ÑÃË
-N	java:S106O"9Replace this use of System.out or System.err by a logger.(—Ó«å
-S	java:S106P"9Replace this use of System.out or System.err by a logger.(òÙÎ¨øÿÿÿÿ
 M	java:S106Q"9Replace this use of System.out or System.err by a logger.(İï‡u
-N	java:S106R"9Replace this use of System.out or System.err by a logger.(³™¡
 S	java:S106a"9Replace this use of System.out or System.err by a logger.(ËÉËúÿÿÿÿ
-S	java:S106c"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
 N	java:S106g"9Replace this use of System.out or System.err by a logger.(•µŸ´
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(³™¡
+8
+java:S2189'""Add an end condition to this loop.(›ûÅò
 S	java:S106i"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
 N	java:S106n"9Replace this use of System.out or System.err by a logger.(Ú³Õ¸
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ñŸ„§ûÿÿÿÿ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+8
+java:S2189 ""Add an end condition to this loop.(›ûÅò
 S	java:S106p"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
-N	java:S106y"9Replace this use of System.out or System.err by a logger.(ş¾¹ô
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âğÄÇ

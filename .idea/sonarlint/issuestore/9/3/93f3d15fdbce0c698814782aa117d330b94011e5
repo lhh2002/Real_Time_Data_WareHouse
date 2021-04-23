@@ -1,0 +1,26 @@
+
+K
+java:S1068".Remove this unused "properties" private field.(õ÷Şà8€Ÿ«¹õ.
+L
+java:S3740U"/Provide the parametrized type for this generic.(·½»8æšÓ‚/
+L
+java:S3740U"/Provide the parametrized type for this generic.(·½»8æšÓ‚/
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(¢©Ì¡ÿÿÿÿÿ8ğéÚÓ‚/
+D
+java:S21894""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8Îµ´¹õ.
+L
+java:S3740T"/Provide the parametrized type for this generic.(ïæ‹ö8ÄêÌ¹õ.
+o
+java:S3776T"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ïæ‹ö8æšÓ‚/
+L
+java:S3740="/Provide the parametrized type for this generic.(±§×8ìÕÏ¹õ.
+d
+java:S1858z"B"getValue" returns a string, there's no need to call "toString()".(ŠæƒËÿÿÿÿÿ8æšÓ‚/
+d
+java:S1858~"B"getValue" returns a string, there's no need to call "toString()".(ŠæƒËÿÿÿÿÿ8æšÓ‚/
+]	java:S125 "<This block of commented-out lines of code should be removed.(×š¡Ñøÿÿÿÿ8ë¡°¹õ.
+]
+java:S18547";Remove this useless assignment to local variable "batchId".(ëÌ˜–şÿÿÿÿ8êªÂ¹õ.
+N
+java:S14817",Remove this unused "batchId" local variable.(ëÌ˜–şÿÿÿÿ8€—Ã¹õ.
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(é‰êÁ8Âààœ…/
